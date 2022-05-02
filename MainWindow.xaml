@@ -1,0 +1,16 @@
+﻿<Window x:Class="threding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:threding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="myTimer" Content="time until messagebox = " HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="378" Margin="22,31,0,0" VerticalAlignment="Top" Width="760">
+            <Ellipse x:Name="elp" Fill="Green" Height="100" Canvas.Left="46" Stroke="Black" Canvas.Top="118" Width="166"/>
+        </Canvas>
+
+    </Grid>
+</Window>
